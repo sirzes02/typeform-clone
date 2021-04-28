@@ -1,5 +1,6 @@
 import React from "react";
 import FirstAndSecond from "./components/FirstAndSecond";
+import Header from "./components/Header";
 import { Main, Section, Sticky } from "./styles";
 import GlobalStyle from "./styles/global";
 
@@ -7,6 +8,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
+
+      <Header />
 
       <Main style={{ height: "1610vh" }}>
         <Section style={{ height: "72.7%" }}>
